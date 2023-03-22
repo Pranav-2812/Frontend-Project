@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Survey forms</title>
+</head>
+<body id="body">
+  <div id="main" >
+    <div  style="background-color: rgba(207, 231, 53, 0.963);">
+    <div id="header" width="100%" hieght="100px" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" align="center" >
+   
+     <h1 style="margin-top: auto;">Survey Form </h1>
+    </div> 
+     <br>
+     <br>
+
+
+     <div id="nav" width="100%" height="100px" style="background-color: aquamarine;">
+      <nav align="center"  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >
+          
+          <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none;" style="text-decoration-color: black;">Instagram | </a> &ensp;
+          <a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none;" style="text-decoration-color: black;">linkedin | </a>&ensp;
+          <a href="https://www.facebook.com/"  target="_blank" style="text-decoration: none;" style="text-decoration-color: black;">Facebook | </a>&ensp;
+      </nav>
+  </div>
+    </div>
+    <br>
+    
+    <div style="width:100%; height:max-content ;" >
+   
+      <form  style="background-color: rgba(244, 180, 84, 0.867);" >
+        
+        <fieldset  >
+            <legend id="legend" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" style="text-decoration:solid;"><h2>Your Info</h2></legend>
+           Name &ensp; :<input type="text" required  title="Enter your name"  maxlength="20" name="Name" autofocus placeholder="Enter your Name"> </big>
+            <br>
+            <br>
+           Reg No : <input type="text" required title="Enter your Reg no" maxlength="10" name="Reg no" placeholder="Enter your Reg No">
+            <br>
+            <br>
+            Branch :
+          
+            <select name="Branch"  required >
+                <option id="0" value="0">select your branch</option>
+                <option id="Cse" value="Cse">CSE</option>
+              <option id="IT" value="IT">IT</option>  
+              <option id="ETC" value="ETC">EXTC</option> 
+              <option id="M" value="M">Mech</option>  
+               <option id="che" value="che">Chemical</option>
+               <option id="pro" value="pro" >production</option> 
+               <option id="T" value="T">textile</option> 
+                <option id="I" value="I">instru</option>
+               <option id="EE" value="EE">eletrical</option> 
+                <option id="C" value="C">civil</option>
+
+            </select>
+        
+            <br>
+            <br>
+            Mobile No&ensp;: <input type="number" maxlength="10" placeholder="Enter your Mob No">
+            <br>
+            <br>
+
+           Gender&ensp; :<input type="radio" id="Male" value="Male" required title="Select a gender" name="Gender" >
+            <label for="Gender" >Male</label>
+            <input type="radio"id="female" value="female"  required title="Select a gender" name="Gender">
+            <label for="Gender">Female</label>
+            <input type="radio" id="Other" value="Other" required title="Select a gender" name="Gender">
+            <label for="Gender">Other</label>
+        
+            <br>
+            <br>
+            Address&ensp; : <textarea required name="Address" id="Address" placeholder="Enter your address"></textarea>
+            <br>
+            <br>
+            Sports&ensp;: <input type="checkbox" title="Select Your Sports" required name="Sports" value="cricket">
+            <label id="1" >Cricket</label>
+            <input type="checkbox" title="Select Your Sports" required name="Sports" value="football">
+            <label id="2">Football</label>
+            <input type="checkbox" title="Select Your Sports" required name="sports" value="tenis">
+            <label id="3"> Tenis</label>
+            <input type="checkbox" title="Select Your Sports" required name="sports" value="batmintton">
+            <label id="4">Batmintton</label>
+            <input type="checkbox" title="Select Your Sports" required name="sports" value="chess">
+            <label id="5">Chess</label>
+            <input type="checkbox" title="Select Your Sports" required name="sport" value="other">
+            <label id="6">Other</label>
+           
+            <br>
+            <br>
+            About Yourself&ensp;:<textarea required name="intro" id="intro" placeholder="Explain Yourself"></textarea>
+            <br>
+            <br>
+            Email&ensp; : <input type="email" required placeholder="abc123@xyz.com">
+            <br>
+            <br>
+            DOB &ensp;: <input type="datetime-local" required>
+            <br>
+            <br>
+        
+            <input type="submit" required> &emsp;
+          <input type="reset">
+    
+        </fieldset>
+    
+    </form>
+  </div> 
+  <br>
+  
+  <div style="background-color: darkgray;">
+    <footer align="center">
+      Copyright &copy; &ensp;|&ensp;Trademark&reg;&ensp;|&ensp;<a href="">Contact us</a>
+    </footer>
+
+  </div>
+  </div>
+
+
+
+</body>
+</html>
